@@ -1,0 +1,124 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #3d3d3d;
+    padding: 6vh;
+    display: grid;
+    place-content: center;
+    align-content: center;
+    height: 100%;
+}
+.wrapper{
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    width: 70vw;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px #000;
+}
+.r1{
+    padding: 4vw;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title h1{
+    color: aliceblue;
+}
+.med{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13vw;
+    height: 12vh;
+}
+.med .line{
+    width: 5vw;
+    height: 0;
+    border: solid;
+    border-color: #e67630;
+    border-radius: 5px;
+}
+.med h2{
+    font-size: large;
+    color: aliceblue;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    width: 20vw;
+}
+.buttons button{
+    width: 9vw;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border-radius: 15px;
+    border: none;
+    padding-right: 2vw;
+    padding-left: 1vw;
+    cursor: pointer;
+    background: linear-gradient(to right, #e04f0b, #e0a00b);
+}
+.buttons button i{
+    font-size: 23px;
+    color: aliceblue;
+
+}
+.buttons button p{
+    color: aliceblue;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 8vh;
+    height: 28vh;
+}
+.form input{
+    width: 22vw;
+    height: 4vh;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: #bfbfbf;
+}
+.form button{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #e67630;
+    margin-top: 5vh;
+    cursor: pointer;
+}
+.form button i{
+    font-size: 23px;
+    color: aliceblue;
+}
+.r2{
+    align-content: center;
+    place-content: center;
+}
+.r2 img{
+    width: 43vw;
+}
+.r1 p{
+    color: aliceblue;
+}
+.r1 p span a{
+    text-decoration: none;
+    color: #e04f0b;
+}
+.r1 p span a:hover{
+    text-decoration: underline;
+}
+#form1{
+    height: 33vh;
+}

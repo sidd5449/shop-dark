@@ -1,0 +1,330 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+body{
+    background-color: #0e0f12;
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.navbar .logo{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.navbar .logo img{
+    width: 80px;
+}
+.navbar .icons{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3vw;
+    width: 22vw;
+}
+.navbar .icons input{
+    background-color: darkslategrey;
+    border: none;
+    border-radius: 5px;
+    visibility: hidden;
+}
+.navbar .icons i{
+    color: rgb(206, 206, 206);
+    font-size: 21px;
+    cursor: pointer;
+}
+.navbar .icons i:hover{
+    content: "";
+    color: #e67630;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.container .row1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25vh;
+    margin-left: 5vw;
+    width: 45%;
+}
+.container .row1 h1{
+    color: floralwhite;
+    font-size: 85px;
+}
+.container .row1 h1 span{
+    color: #e67630;
+    text-decoration: underline;
+    font-size: 85px;
+}
+.container .row1 p{
+    color: floralwhite;
+    font-size: 35px;
+}
+.container .row1 .buttons{
+    margin-top: 8vh;
+    display: flex;
+    justify-content: space-between;
+    width: 22vw;
+    align-items: center;
+}
+.container .row1 .buttons button{
+    border: none;
+    width: 8vw;
+    height: 6vh;
+    border-radius: 20px;
+    background-color: #ba8a43;
+    color: floralwhite;
+    font-size: large;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+.container .row1 .buttons button:hover{
+    content: "";
+    width: 9vw;
+    height: 7vh;
+    transition: ease-in-out 0.2s;
+}
+.row2 .circle1{
+    width: 50px;
+    height: 50px;
+    background-color: #e67630;
+    border-radius: 50px;
+    margin-top: 18vh;
+    margin-left: 12vw;
+    position: absolute;
+    z-index: 1;
+}
+.row2 .circle2{
+    width: 80px;
+    height: 80px;
+    background-color: #e67630;
+    border-radius: 20px;
+    margin-top: 62vh;
+    margin-left: 27vw;
+    position: absolute;
+    transform: rotateZ(45deg);
+    z-index: 1;
+    
+}
+.row2 .circle3{
+    width: 130px;
+    height: 50px;
+    transform: rotateZ(32deg);
+    background-color: aliceblue;
+    border-radius: 50px;
+    margin-top: 12vh;
+    margin-left: 38vw;
+    position: absolute;
+    z-index: 1;
+    
+}
+.row2 img{
+    transform: rotateZ(330deg);
+    margin-top: 25vh;
+    width: 35vw;
+    margin-left: 8vw;
+    position:absolute;
+    z-index: -1;
+}
+.scrolldown{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    place-content: center;
+}
+.scrolldown button{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    align-items: center;
+    background-color: #e67630;
+    border: none;
+    font-size: 28px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.scrolldown button a{
+    color: aliceblue;
+}
+.heading{
+    display: flex;
+    align-content: center;
+    width: 100%;
+    place-content: center;
+    margin-top: 9vh;
+}
+.heading h1{
+    color: aliceblue;
+}
+.heading h1 span{
+    color: #e67630;
+    text-decoration: underline;
+}
+.hero{
+    display: flex;
+    margin-top: 9vh;
+    justify-content: space-between;
+}
+.hero_r1{
+    align-items: center;
+    padding-left: 5vw;
+}
+.hero_r1 img{
+    width: 40vw;
+}
+.hero_r2{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10vw;
+    padding-top: 5vh;
+}
+.hero_r2 .gr{
+    display: flex;
+    width: 18vw;
+    justify-content: space-between;
+}
+.hero_r2 h2{
+    color: #ba8a43;
+    font-size: 55px;
+}
+.hero_r2 p{
+    color: aliceblue;
+    font-size: 20px;
+}
+.hero_r2 .gr img{
+    width: 50px;
+}
+.hero_rr2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 15vh;
+}
+.hero_rr2 .gr2{
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+}
+.hero_rr2 h2{
+    color: #ba8a43;
+    font-size: 55px;
+}
+.hero_rr2 p{
+    color: aliceblue;
+    font-size: 20px;
+}
+.hero_rr2 .gr2 img{
+    width: 50px;
+}
+.hero_rr1{
+    padding-right: 6vw;
+}
+.hero_rr1 img{
+    width: 40vw;
+}
+.subscribe{
+    margin-top: 5vh;
+    background-color: #ba8a43;
+    padding: 6vh;
+    justify-content: space-between;
+    display: flex;
+    height: 30vh;
+    align-items: center;
+    flex-direction: column;
+}
+.subscribe h1{
+    color: aliceblue;
+}
+.subscribe .inpt{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+}
+.subscribe .inpt input{
+    border: none;
+    height: 6vh;
+    width: 36vw;
+    padding: 2vw;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.subscribe .inpt button{
+    width: 10vw;
+    border: none;
+    background-color: #0e0f12;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px #474747;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.subscribe .inpt button:hover{
+    content: "";
+    background-color: #e67630;
+}
+footer{
+    display: flex;
+    padding: 5vw; 
+    justify-content: space-between; 
+}
+footer .right{
+}
+footer .right h2{
+    color: aliceblue;
+    cursor: pointer;
+}
+footer .right p{
+    color: aliceblue;
+}
+footer .left .icons{
+    width: 15vw;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+footer .left .icons i{
+    color: aliceblue;
+    font-size: 20px;
+}
+.credits{
+    margin-bottom: 2vh;
+}
+.credits p{
+    color: aliceblue;
+}
+.credits p a{
+    text-decoration: none;
+    color: #e67630;
+}
+@media only screen and (max-width: 1440px){
+    .hero_r2{
+        width:50vw;
+    }
+    .hero_rr2{
+        width: 50vw;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .navbar.icons{
+        width: 32vw;
+        display: flex;
+        justify-content: space-between;
+        margin: 0px;
+    }
+    .gr{
+        width: 80px;
+    }
+}
+
